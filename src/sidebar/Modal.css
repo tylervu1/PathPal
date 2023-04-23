@@ -1,7 +1,7 @@
 .modalBackground {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(200, 200, 200);
+    background-color: rgb(221, 247, 253);
     position: fixed;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
     height: 500px;
     border-radius: 12px;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(118, 170, 244, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -68,3 +68,74 @@
   #cancelBtn {
     background-color: crimson;
   }
+
+.userInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    font-size: 25px;
+}
+.personalInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    
+}
+.emergancyContacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.settingsWrapper{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.addContact{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.contactButton{
+    display: flex;
+}
+.bread{
+    display: flex;
+    flex-direction: column;
+}
+.lettuce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cheese{
+    width: 50%;
+    height:50px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(239, 239, 239);
+    border-color: rgb(239, 239, 239);
+    background-color: white;
+   
+}
+.cheese2{
+    font-size: 25px;
+    background-color: aliceblue;
+
+    height:50px;
+    border-radius: 10px;
+    border-color: (239, 239, 239);
+    border: 2px solid black;
+}
