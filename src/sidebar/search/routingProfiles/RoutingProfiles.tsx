@@ -91,6 +91,6 @@ function getIcon(profile: RoutingProfile) {
         case 'wheelchair':
             return <WheelchairIcon />
         default:
-            return profile.name
+            return <WheelchairIcon />
     }
 }

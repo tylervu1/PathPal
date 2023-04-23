@@ -1,5 +1,11 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
+import { Auth0Provider } from "@auth0/auth0-react";
+import {
+    BrowserRouter,
+    Routes, //replaces "Switch" used till v5
+    Route,
+  } from "react-router-dom";
 
 import { setTranslation } from '@/translation/Translation'
 import App from '@/App'
@@ -89,9 +95,17 @@ rootDiv.id = 'root'
 rootDiv.style.height = '100%'
 document.body.appendChild(rootDiv)
 
+const imposterDiv = document.createElement('div') as HTMLDivElement;
+imposterDiv.id = 'imposter';
+imposterDiv.style.height = '100%';
+rootDiv.appendChild(imposterDiv);
+
 const root = createRoot(rootDiv)
 root.render(
     // <StrictMode>
-    <App />
+        
+        
+            <App/>
+       
     // </StrictMode>
 )
