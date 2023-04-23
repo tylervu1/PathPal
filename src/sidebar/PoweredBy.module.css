@@ -45,3 +45,13 @@
     width: 25px;
     height: 25px;
 }
+.modalContainerUwu{
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+li .openModalBtn{
+    width: 25px;
+    height: 25px; 
+}
