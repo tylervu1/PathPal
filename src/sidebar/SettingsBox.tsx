@@ -31,6 +31,8 @@ export default function SettingsBox() {
                 <a href="https://www.graphhopper.com/privacy/">Privacy</a>
                 <a href="https://www.graphhopper.com/terms/">Terms</a>
             </div>
+            <div className={styles.toolBarPage}>
+            </div>
         </div>
     )
 }
