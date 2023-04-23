@@ -29,10 +29,10 @@ function Modal({ setOpenModal }: { setOpenModal: (open: boolean) => void }) {
             </button>
           </div>
           <div className="title">
-            <h1>PLEASE END MY SUFFERING</h1>
+            <h1>Notify Emergency Contacts for Help?</h1>
           </div>
           <div className="body">
-            <p>GIVE THE RABBIT A CARROT?</p>
+            <p>Help will be on its way!</p>
           </div>
           <div className="footer">
             <button
@@ -43,7 +43,9 @@ function Modal({ setOpenModal }: { setOpenModal: (open: boolean) => void }) {
             >
               NO
             </button>
-            <button>YES</button>
+            <button onClick={() => {
+                setOpenModal(false);
+              }}>YES</button>
           </div>
         </div>
       </div>
